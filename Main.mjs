@@ -18,9 +18,9 @@ student.matricNo = matricNo;
 student.major = major;
 
 display = () => {
-    console.log(`Your Name : ${name}`);
-    console.log(`Your Name : ${matricNo}`);
-    console.log(`Your Name : ${major}`);
+    console.log(`Student Name : ${name}`);
+    console.log(`Student Matric No : ${matricNo}`);
+    console.log(`Student Major : ${major}`);
 };
 
 });
