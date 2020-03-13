@@ -10,7 +10,8 @@ rl.question('Name: ', (name) => {
 rl.question('Matric No: ', (matricNo) => {
 rl.question('Major: ', (major) => {
 
-student.close();
+rl.close();
+// studentInfo();
 
 let student = new Student();
 student.name = name;
@@ -22,6 +23,12 @@ display = () => {
     console.log(`Student Matric No : ${matricNo}`);
     console.log(`Student Major : ${major}`);
 };
+    
+// function studentInfo () {
+//     console.log(`Student Name : ${name}`);
+//     console.log(`Student Matric No : ${matricNo}`);
+//     console.log(`Student Major : ${major}`);
+// }
 
 });
 });
