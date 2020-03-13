@@ -7,7 +7,7 @@ const rl = readline.createInterface({
 });
 
 rl.question('Name: ', (name) => {
-rl.question('MatricNo: ', (matricNo) => {
+rl.question('Matric No: ', (matricNo) => {
 rl.question('Major: ', (major) => {
 
 student.close();
